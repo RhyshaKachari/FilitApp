@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'views/home.dart';
 import 'views/myprofile.dart';
+import 'views/bankdetails.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
       ),
-      home: MyProfile(),
+      home: Home(),
     );
   }
 }
